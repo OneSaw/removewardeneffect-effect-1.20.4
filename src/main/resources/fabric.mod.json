@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "removewardeneffect",
+  "version": "${version}",
+
+  "name": "Remove Warden Darkness",
+  "description": "Removes Warden's darkness effect",
+  "authors": [
+    "OneSaw"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/removewardeneffect/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.onesaw.removewardeneffect.DarknessRemover"
+    ]
+  },
+  "mixins": [
+    "removewardeneffect.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.19",
+    "fabric-api": "*",
+    "minecraft": "~1.20.3",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
