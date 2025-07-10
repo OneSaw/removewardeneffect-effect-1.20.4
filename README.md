@@ -1,6 +1,6 @@
 # This only contains fabric version im too lazy to upload forge and neoforge
 
-Its officially available ONLY in modrinth and curseforge (soon idk when they approve)
+Its officially available ONLY in modrinth and curseforge
 
 ## License
 
